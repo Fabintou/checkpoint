@@ -1,0 +1,41 @@
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(4, 65, 218);
+    font-family: roboto;
+  }
+  
+  li div {
+    float: left;
+    
+  }
+  
+  ul a { display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  ul {
+    border-right: 1px solid #bbb;
+}
+
+ul:last-child {
+    border-right: none;
+}
+  
+  
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(247, 0, 4);
+  }
+  table{
+    text-align: justify;
+   color: blue;
+   margin-top: 10;
+   content: normal;
+  }
